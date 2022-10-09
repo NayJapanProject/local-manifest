@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+<!-- fetching sources -->      
+
+        <remote name="NayJapanProject"
+                fetch="https://github.com/NayJapanProject" />
+
+        <remote name="arrow"
+                fetch="https://github.com/ArrowOS-Devices" />
+ 
+<!-- device trees -->
+
+        <project path="device/realme/rmx2180" name="android_device_realme_rmx2180" remote="NayJapanProject" revision="thirteen" />
+        <project path="system/realme/rmx2180" name="system_realme_rmx2180" remote="NayJapanProject" revision="Trinket" />
+        <project path="kernel/realme/rmx2180" name="kernel_realme_rmx2180" remote="NayJapanProject" revision="Trinket" clone-depth="1" />
+</manifest>
