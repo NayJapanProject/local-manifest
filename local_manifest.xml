@@ -7,8 +7,8 @@
         <remote name="NayJapanProject"
                 fetch="https://github.com/NayJapanProject" />
 
-        <remote name="arrow"
-                fetch="https://github.com/ArrowOS-Devices" />
+        <remote name="RiceDroid"
+                fetch="https://github.com/RiceDroid/android" />
  
 <!-- device trees -->
 
